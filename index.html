@@ -1,0 +1,137 @@
+<head>
+    <meta charset= "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.10.1-web/css/all.css">
+    <!--(3) Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+    <!--(4) Bootstrap JS-->
+    <script src="js/jquery/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.js"></script>
+    <style>
+        .container {
+            max-width: unset; /* makes the container fit the whole page */
+        }
+    </style>
+</head>
+
+<body>
+  <div class="container"> <!-- container for whole page -->
+
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-sm" style="background-color: #2d89ef;">
+      <a href="index.html" class="navbar-brand">Nox</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"> <!-- hamburger menu -->
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myTogglerNav"> 
+          <div class="nav navbar-nav ml-auto"> <!-- navbar items with icons -->
+              <a class="nav-item nav-link" href="index.html">Home<i class="fas fa-home"></i></a> 
+              <a class="nav-item nav-link" href="products.html">Products<i class="fas fa-shopping-cart"></i></a>
+              <a class="nav-item nav-link" href="services.html">Services<i class="fas fa-concierge-bell"></i></a>
+              <a class="nav-item nav-link" href="partners.html">Partners<i class="fas fa-handshake"></i></a>
+              <a class="nav-item nav-link" href="about.html">About<i class="fas fa-address-card"></i></a>
+          </div> 
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Start of Home -->
+    <section id="home">
+        <div class="home-text text-center" style="padding-top: 100px; padding-bottom: 500px;">
+            <h1>Welcome to Nox</h1>
+            <p>The future of cybersecurity.</p>
+            <div class="call-to-action">
+                <a href="create.html" class="btn-bg">Get Started</a> <!--leads to account creation page-->
+            </div>
+        </div>
+        <div class="photo-gallery"> <!-- photo gallery -->     
+          <link rel="stylesheet" type="text/css" href="css/slideshow.css">        
+                <div class="slideshow-container">
+                  <a href="products.html"> <!-- redirects to products page when any image is clicked -->
+                    <div class="mySlides"> <!-- slideshow images which are responsive -->
+                      <div class="numbertext">1 / 5</div>
+                        <img src="images/antivirus1.png" style="width:100%">
+                      <div class="text">Nox Antivirus</div>
+                    </div>
+                    
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 5</div>
+                      <img src="images/firewall1.png" style="width:100%">
+                      <div class="text">Nox Firewall</div>
+                    </div>
+                    
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 5</div>
+                      <img src="images/endpoint1.jpg" style="width:100%">
+                      <div class="text">Nox Endpoint Security</div>
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">4 / 5</div>
+                      <img src="images/home1.jpg" style="width:100%">
+                      <div class="text">Nox Home</div>
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">5 / 5</div>
+                      <img src="images/central1.jpg" style="width:100%">
+                      <div class="text">Nox Central</div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!-- goes to previous slide with arrow symbol thing-->
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>  <!-- goes to next slide -->
+                  </a>
+                </div>
+                <script src="js/slideshow.js"></script> <!-- javascript code for the slideshow -->
+        </div>
+        
+
+        <div class="what-nox">
+            <div class="what-nox-header">
+                <h2>What is Nox?</h2>
+            </div>
+            <div class="what-nox-body"> <!--introduction to Nox on homepage-->
+                <p>Nox is a premier cybersecurity provider specialized in both security software and hardware.
+                <br/>We provide a Unified Threat Management (UTM) approach to information security. 
+                <br/>This approach helps our clients save time, money and people when compared to the
+                <br/>management of multiple security systems. Instead of having several single-function
+                <br/>appliances, all needing individual familiarity, attention and support, 
+                <br/>network administrators can centrally administer their security defenses
+                <br/>from one computer using the Nox UTM architecture.</p>
+
+                <p>In addition, NOX empowers MSSP (Managed Security Service Providers) through the NOX MSP program.
+                <br/>Utilizing our proprietary Managed Detection and Response (MDR) technology, our partners are 
+                <br/>able to provide a managed cybersecurity service that detects intrusions, malware, 
+                <br/>and malicious activity in customers’ network and assists in responding quickly 
+                <br/>to eliminate and mitigate those threats. Our MDR combines a technology solution 
+                <br/>with outsourced security analysts that extend our partner’s capabilities and team.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End of Home -->
+
+    <!-- Start of footer -->
+  <div class="footer" style="background-color: #2d89ef;">
+    <div class="container">
+      <div class="row">
+          <div class="stay-connected col">
+              <div class="stay-connected-text" style="color: #FFFFFF;">
+                  Stay Connected:
+              </div>
+              <div class="social-media" style="padding-bottom: 5px;"> <!-- social mmedia links -->
+                      <a href="https://www.facebook.com/FacebookSingapore" target="_blank"><img src="images/facebook.png" alt="Facebook"></a> <!-- links to official social media pages -->
+                      <a href="https://www.instagram.com/instagram" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                      <a href="https://twitter.com/Twitter" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+              </div>
+          </div>
+          <div class="contact-us col text-right">
+            <nav>
+              <a href="contact.html" style="color: #FFFFFF;">Contact Support</a> <!-- contact support link -->
+            </nav>
+          </div>
+      </div>
+    </div>
+    <!-- End of footer -->
+  </div>
+</body>

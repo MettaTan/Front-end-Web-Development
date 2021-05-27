@@ -1,0 +1,47 @@
+#home { /* big image on homepage */
+    padding-top: 130px;
+    min-height: 500px;
+    background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.6)), url("images/home.jpg");
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.home-text p {
+    padding: 10px;
+}
+/* button css used for every button */
+.btn-bg{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    border: none;
+    background-color: #2d89ef;
+    color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    transition: all 0.4s;
+}
+/* button hover css */
+.btn-bg:hover{
+    color: #2d89ef;
+    background-color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+/* big blue text box */
+.what-nox {
+    text-align: center;
+    color: white;
+    background: #2d89ef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.what-nox-body {
+    font-size: 20px;
+}

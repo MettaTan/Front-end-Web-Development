@@ -1,0 +1,97 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/create.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.10.1-web/css/all.css">
+    <script src="js/create.js"></script>
+    <!--(3) Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+    <!--(4) Bootstrap JS-->
+    <script src="js/jquery/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.js"></script>
+</head>
+<div class="container" style="max-width: unset;">
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-sm" style="background-color: #2d89ef;">
+        <a href="index.html" class="navbar-brand">Nox</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"> <!-- hamburger menu -->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myTogglerNav"> 
+            <div class="nav navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="index.html">Home<i class="fas fa-home"></i></a>
+                <a class="nav-item nav-link" href="products.html">Products<i class="fas fa-shopping-cart"></i></a>
+                <a class="nav-item nav-link" href="services.html">Services<i class="fas fa-concierge-bell"></i></a>
+                <a class="nav-item nav-link" href="partners.html">Partners<i class="fas fa-handshake"></i></a>
+                <a class="nav-item nav-link" href="about.html">About<i class="fas fa-address-card"></i></a>
+            </div> 
+        </div>
+      </nav>
+      <!-- End of Navbar -->
+    
+    <form action="thankyou.html"> <!-- redirects to thankyou.html -->
+        <div class="form container" >
+            <h2>Create your Nox Account</h2>
+            <div class="form-items">
+                <div class="form-item">
+                    <div class="input-wrapper">
+                        <input class="form-control" id="name" name="name" type="text" placeholder="Enter your full name" required />
+                    </div>
+                </div>
+                <div class="form-item">
+                    <div class="input-wrapper">
+                        <input class="form-control" id="email" name="email" type="text" placeholder="Enter your email" required />
+                    </div>
+                </div>
+                <div class="form-item">
+                    <div class="input-wrapper">
+                        <input class="form-control" id="password" name="password" type="password" placeholder="Enter your password" required />
+                    </div>
+                </div>
+                <div class="form-check">
+                    <div class="row">
+                        <div class="label">
+                            I'm not a robot
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="robot" type="checkbox" value="1" required />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-actions">
+                <div class="form-action">
+                    <input type="submit" class="btn-bg" onclick="return validate();" value="Submit"> <!-- redirects if validation is successful -->
+                </div>
+                <div class="form-action">
+                    <a class="sign-in text-muted" href="sign-in.html">Sign in instead</a>
+                </div>
+                <div class="form-action">
+                    <a class="return text-muted" href="index.html">Return to homepage</a>
+                </div>
+            </div>
+        </div>
+    </form>
+<div class="container" style="max-width: unset;">
+    <div class="footer" style="background-color: #2d89ef;">
+        <div class="container" style="max-width: unset;">
+          <div class="row">
+              <div class="stay-connected col">
+                  <div class="stay-connected-text" style="color: #FFFFFF;">
+                      Stay Connected:
+                  </div>
+                  <div class="social-media" style="padding-bottom: 5px;"> <!-- social mmedia links -->
+                          <a href="https://www.facebook.com/FacebookSingapore" target="_blank"><img src="images/facebook.png" alt="Facebook"></a> 
+                          <a href="https://www.instagram.com/instagram" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+                          <a href="https://twitter.com/Twitter" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+                  </div>
+              </div>
+              <div class="contact-us col text-right">
+                <nav>
+                  <a href="contact.html" style="color: #FFFFFF;">Contact Support</a> <!-- contact support link -->
+                </nav>
+              </div>
+          </div>
+        </div>
+        <!-- End of footer -->
+      </div>
+</div>

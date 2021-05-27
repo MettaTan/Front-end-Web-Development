@@ -1,0 +1,39 @@
+section {
+    padding-bottom: 200px;
+}
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #2d89ef;
+}
+
+.section-desc {
+    text-align: center;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 30px;
+
+}
+
+.products {
+    padding: 10px;
+}
+
+.product {
+    padding: 10px;
+}
+
+.product-title {
+    font-weight: bold;
+}
+
+.product-desc {
+    text-align: left;
+}
+
+.product-photo {
+    text-align: right;
+}
+

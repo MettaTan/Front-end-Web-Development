@@ -1,0 +1,34 @@
+section {
+    text-align: center;  /* center aligns text in blue box and table title */
+}
+
+.section-title{ /* styling for section title */
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #2d89ef;
+}
+
+.welcome { /* styling for text in blue box */
+    background: #2d89ef;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.welcome-desc { /* specify font size of welcome text */
+    font-size: 25px;
+}
+
+.about {
+    padding: 40px;
+}
+
+.about-title { /* bold and center title */
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-desc { /* center about desc */
+    text-align: center;
+}

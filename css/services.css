@@ -1,0 +1,41 @@
+section {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #2d89ef;
+}
+.section-desc{
+    text-align: center;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.service {
+    padding: 20px;
+}
+
+.service-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.service-desc {
+    text-align: center;
+}
+
+.why-nox {
+    color: white;
+    background: #2d89ef;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.why-nox-desc {
+    font-size: 20px;
+}

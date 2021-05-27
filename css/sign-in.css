@@ -1,0 +1,43 @@
+.form {
+    padding-top: 200px;
+    padding-bottom: 500px;
+}
+
+.form-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-action {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.label {
+    padding-right: 10px;
+    padding-bottom: 10px;
+} 
+/* css used for every button */
+.btn-bg { 
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    border: none;
+    background-color: #2d89ef;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    transition: all 0.4s;
+}
+/* button hover css */
+.btn-bg:hover {
+    color: #2d89ef;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+
+
